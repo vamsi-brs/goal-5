@@ -12,14 +12,14 @@ body {
     font-weight: 400;
     color: #202124;
     line-height: 1.5em;
-    background: #f1f3f6
+    background:  #fff
 }
 
 a {
     padding: 10px;
     text-decoration:none;
     outline: 0;
-    color: #333
+    color:  #202124
 }
 
 ul {
@@ -68,7 +68,7 @@ article {
 
 
 p span {
-    color: #8f9293;
+    color: #202124;
     margin-bottom: 15px;
     display: block
 }
@@ -96,8 +96,8 @@ ul li {
     flex-wrap: wrap;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .08);
-    border-top: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px 0  #202124(0, 0, 0, .08);
+    border-top: 1px solid  #fff;
     padding: 40px;
     margin: 10px auto;
     /* center in the viewport */
@@ -106,7 +106,7 @@ ul li {
 }
 
 header {
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 1px dashed #fff;
     grid-area: header;
     /* header spans full columns */
     flex: 0 0 100%;
@@ -149,7 +149,7 @@ main {
     }
 
     h2 {
-        background: #f0f0f0;
+        background:  #fff;
         padding: 10px;
         border-radius: 5px
     }
